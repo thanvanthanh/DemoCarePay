@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050227E0263B195800AC6993 /* MessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050227DF263B195800AC6993 /* MessTableViewCell.swift */; };
+		050227E3263B1E7500AC6993 /* DataMess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050227E2263B1E7500AC6993 /* DataMess.swift */; };
+		050227F1263B30B800AC6993 /* ServiceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050227F0263B30B800AC6993 /* ServiceCollectionViewCell.swift */; };
+		050227F5263BEE9900AC6993 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050227F4263BEE9900AC6993 /* DataService.swift */; };
+		050726DA2646F5750020637D /* WithdrawCashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050726D92646F5750020637D /* WithdrawCashViewController.swift */; };
+		05E653B5263D94610018497B /* AccountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E653B4263D94610018497B /* AccountCollectionViewCell.swift */; };
+		05E653B8263D97170018497B /* DataAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E653B7263D97170018497B /* DataAccount.swift */; };
+		05E653BD263EF3800018497B /* MyWalletCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E653BC263EF3800018497B /* MyWalletCollectionViewCell.swift */; };
+		05E653C0263EF4A30018497B /* DataMyWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E653BF263EF4A30018497B /* DataMyWallet.swift */; };
+		05F2BF9926398EFF0025C42D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2BF9826398EFF0025C42D /* AppDelegate.swift */; };
+		05F2BF9B26398EFF0025C42D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2BF9A26398EFF0025C42D /* SceneDelegate.swift */; };
+		05F2BFA226398F000025C42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F2BFA126398F000025C42D /* Assets.xcassets */; };
+		05F2BFA526398F000025C42D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F2BFA326398F000025C42D /* LaunchScreen.storyboard */; };
+		05F2BFB026398F670025C42D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2BFAF26398F670025C42D /* HomeViewController.swift */; };
+		05F2BFB6263990510025C42D /* MessengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2BFB5263990510025C42D /* MessengerViewController.swift */; };
+		05F2BFB9263990610025C42D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2BFB8263990610025C42D /* AccountViewController.swift */; };
+		05F2BFC0263996730025C42D /* WalletCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2BFBF263996730025C42D /* WalletCollectionViewCell.swift */; };
+		05F2BFC62639A5FE0025C42D /* DataWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2BFC52639A5FE0025C42D /* DataWallet.swift */; };
+		05F2BFCE263A5B070025C42D /* DealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2BFCD263A5B070025C42D /* DealViewController.swift */; };
+		05F2BFD5263A6E0C0025C42D /* RechargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2BFD4263A6E0C0025C42D /* RechargeViewController.swift */; };
+		05F2BFD8263A6E260025C42D /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2BFD7263A6E260025C42D /* PayViewController.swift */; };
+		05F2BFDB263A6E340025C42D /* VoucherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2BFDA263A6E340025C42D /* VoucherViewController.swift */; };
+		05F2BFDF263A6E460025C42D /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F2BFDE263A6E460025C42D /* WalletViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		050227DF263B195800AC6993 /* MessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessTableViewCell.swift; sourceTree = "<group>"; };
+		050227E2263B1E7500AC6993 /* DataMess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMess.swift; sourceTree = "<group>"; };
+		050227F0263B30B800AC6993 /* ServiceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCollectionViewCell.swift; sourceTree = "<group>"; };
+		050227F4263BEE9900AC6993 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		050726D92646F5750020637D /* WithdrawCashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawCashViewController.swift; sourceTree = "<group>"; };
+		05E653B4263D94610018497B /* AccountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCollectionViewCell.swift; sourceTree = "<group>"; };
+		05E653B7263D97170018497B /* DataAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccount.swift; sourceTree = "<group>"; };
+		05E653BC263EF3800018497B /* MyWalletCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWalletCollectionViewCell.swift; sourceTree = "<group>"; };
+		05E653BF263EF4A30018497B /* DataMyWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMyWallet.swift; sourceTree = "<group>"; };
+		05F2BF9526398EFF0025C42D /* CarePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F2BF9826398EFF0025C42D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05F2BF9A26398EFF0025C42D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		05F2BFA126398F000025C42D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05F2BFA426398F000025C42D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05F2BFA626398F000025C42D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F2BFAF26398F670025C42D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		05F2BFB5263990510025C42D /* MessengerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerViewController.swift; sourceTree = "<group>"; };
+		05F2BFB8263990610025C42D /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		05F2BFBF263996730025C42D /* WalletCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCollectionViewCell.swift; sourceTree = "<group>"; };
+		05F2BFC52639A5FE0025C42D /* DataWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataWallet.swift; sourceTree = "<group>"; };
+		05F2BFCD263A5B070025C42D /* DealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealViewController.swift; sourceTree = "<group>"; };
+		05F2BFD4263A6E0C0025C42D /* RechargeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechargeViewController.swift; sourceTree = "<group>"; };
+		05F2BFD7263A6E260025C42D /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		05F2BFDA263A6E340025C42D /* VoucherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherViewController.swift; sourceTree = "<group>"; };
+		05F2BFDE263A6E460025C42D /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F2BF9226398EFF0025C42D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050227DD263B17A900AC6993 /* Mess */ = {
+			isa = PBXGroup;
+			children = (
+				05F2BFB5263990510025C42D /* MessengerViewController.swift */,
+				050227DF263B195800AC6993 /* MessTableViewCell.swift */,
+				050227E2263B1E7500AC6993 /* DataMess.swift */,
+			);
+			path = Mess;
+			sourceTree = "<group>";
+		};
+		050227E6263B2E7400AC6993 /* Deal */ = {
+			isa = PBXGroup;
+			children = (
+				05F2BFCD263A5B070025C42D /* DealViewController.swift */,
+			);
+			path = Deal;
+			sourceTree = "<group>";
+		};
+		050227E7263B2E8300AC6993 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				05F2BFB8263990610025C42D /* AccountViewController.swift */,
+				05E653B4263D94610018497B /* AccountCollectionViewCell.swift */,
+				05E653B7263D97170018497B /* DataAccount.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		050227EA263B304600AC6993 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				050227F0263B30B800AC6993 /* ServiceCollectionViewCell.swift */,
+				050227F4263BEE9900AC6993 /* DataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		05E653BA263EEBFE0018497B /* MyWallet */ = {
+			isa = PBXGroup;
+			children = (
+				05F2BFDE263A6E460025C42D /* WalletViewController.swift */,
+				05E653BC263EF3800018497B /* MyWalletCollectionViewCell.swift */,
+				05E653BF263EF4A30018497B /* DataMyWallet.swift */,
+			);
+			path = MyWallet;
+			sourceTree = "<group>";
+		};
+		05F2BF8C26398EFF0025C42D = {
+			isa = PBXGroup;
+			children = (
+				05F2BF9726398EFF0025C42D /* CarePay */,
+				05F2BF9626398EFF0025C42D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05F2BF9626398EFF0025C42D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F2BF9526398EFF0025C42D /* CarePay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F2BF9726398EFF0025C42D /* CarePay */ = {
+			isa = PBXGroup;
+			children = (
+				05F2BF9826398EFF0025C42D /* AppDelegate.swift */,
+				05F2BF9A26398EFF0025C42D /* SceneDelegate.swift */,
+				050227E7263B2E8300AC6993 /* Account */,
+				050227E6263B2E7400AC6993 /* Deal */,
+				05F2BFD2263A6D740025C42D /* Item */,
+				05F2BFBB263990650025C42D /* Home */,
+				050227DD263B17A900AC6993 /* Mess */,
+				05F2BFA126398F000025C42D /* Assets.xcassets */,
+				05F2BFA326398F000025C42D /* LaunchScreen.storyboard */,
+				05F2BFA626398F000025C42D /* Info.plist */,
+			);
+			path = CarePay;
+			sourceTree = "<group>";
+		};
+		05F2BFBB263990650025C42D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				05F2BFAF26398F670025C42D /* HomeViewController.swift */,
+				05F2BFBF263996730025C42D /* WalletCollectionViewCell.swift */,
+				05F2BFC52639A5FE0025C42D /* DataWallet.swift */,
+				050227EA263B304600AC6993 /* Service */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		05F2BFD2263A6D740025C42D /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				05F2BFD7263A6E260025C42D /* PayViewController.swift */,
+				050726D92646F5750020637D /* WithdrawCashViewController.swift */,
+				05F2BFD4263A6E0C0025C42D /* RechargeViewController.swift */,
+				05F2BFDA263A6E340025C42D /* VoucherViewController.swift */,
+				05E653BA263EEBFE0018497B /* MyWallet */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F2BF9426398EFF0025C42D /* CarePay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F2BFA926398F000025C42D /* Build configuration list for PBXNativeTarget "CarePay" */;
+			buildPhases = (
+				05F2BF9126398EFF0025C42D /* Sources */,
+				05F2BF9226398EFF0025C42D /* Frameworks */,
+				05F2BF9326398EFF0025C42D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarePay;
+			productName = CarePay;
+			productReference = 05F2BF9526398EFF0025C42D /* CarePay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F2BF8D26398EFF0025C42D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					05F2BF9426398EFF0025C42D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 05F2BF9026398EFF0025C42D /* Build configuration list for PBXProject "CarePay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05F2BF8C26398EFF0025C42D;
+			productRefGroup = 05F2BF9626398EFF0025C42D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F2BF9426398EFF0025C42D /* CarePay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F2BF9326398EFF0025C42D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F2BFA526398F000025C42D /* LaunchScreen.storyboard in Resources */,
+				05F2BFA226398F000025C42D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F2BF9126398EFF0025C42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F2BF9926398EFF0025C42D /* AppDelegate.swift in Sources */,
+				05F2BFD8263A6E260025C42D /* PayViewController.swift in Sources */,
+				05F2BFB9263990610025C42D /* AccountViewController.swift in Sources */,
+				05F2BFD5263A6E0C0025C42D /* RechargeViewController.swift in Sources */,
+				05F2BFDB263A6E340025C42D /* VoucherViewController.swift in Sources */,
+				050227E3263B1E7500AC6993 /* DataMess.swift in Sources */,
+				05E653BD263EF3800018497B /* MyWalletCollectionViewCell.swift in Sources */,
+				05F2BFDF263A6E460025C42D /* WalletViewController.swift in Sources */,
+				050227F5263BEE9900AC6993 /* DataService.swift in Sources */,
+				05F2BF9B26398EFF0025C42D /* SceneDelegate.swift in Sources */,
+				05E653C0263EF4A30018497B /* DataMyWallet.swift in Sources */,
+				05E653B8263D97170018497B /* DataAccount.swift in Sources */,
+				05F2BFCE263A5B070025C42D /* DealViewController.swift in Sources */,
+				05F2BFC0263996730025C42D /* WalletCollectionViewCell.swift in Sources */,
+				050227F1263B30B800AC6993 /* ServiceCollectionViewCell.swift in Sources */,
+				05F2BFB026398F670025C42D /* HomeViewController.swift in Sources */,
+				05F2BFB6263990510025C42D /* MessengerViewController.swift in Sources */,
+				05F2BFC62639A5FE0025C42D /* DataWallet.swift in Sources */,
+				050726DA2646F5750020637D /* WithdrawCashViewController.swift in Sources */,
+				050227E0263B195800AC6993 /* MessTableViewCell.swift in Sources */,
+				05E653B5263D94610018497B /* AccountCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05F2BFA326398F000025C42D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F2BFA426398F000025C42D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05F2BFA726398F000025C42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05F2BFA826398F000025C42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05F2BFAA26398F000025C42D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8AJXZSJ7F;
+				INFOPLIST_FILE = CarePay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vanthanh.CarePay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05F2BFAB26398F000025C42D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8AJXZSJ7F;
+				INFOPLIST_FILE = CarePay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vanthanh.CarePay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F2BF9026398EFF0025C42D /* Build configuration list for PBXProject "CarePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F2BFA726398F000025C42D /* Debug */,
+				05F2BFA826398F000025C42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F2BFA926398F000025C42D /* Build configuration list for PBXNativeTarget "CarePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F2BFAA26398F000025C42D /* Debug */,
+				05F2BFAB26398F000025C42D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F2BF8D26398EFF0025C42D /* Project object */;
+}
