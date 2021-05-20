@@ -50,6 +50,12 @@ The E-Wallet DeMoCarePay Application
 
 ## IOS TEAM
 - Developer Than Van Thanh 
+
+## Contact
 **Facebook**
 <br>
-<a href= " https://www.facebook.com/thanvanthanh99/ "target="_blank"> Van Thnah </a>
+-  https://www.facebook.com/thanvanthanh99/ 
+<br>
+**Gmail**
+<br>
+- thanvanthanh1909@gmail.com
