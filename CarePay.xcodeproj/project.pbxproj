@@ -12,6 +12,11 @@
 		050227F1263B30B800AC6993 /* ServiceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050227F0263B30B800AC6993 /* ServiceCollectionViewCell.swift */; };
 		050227F5263BEE9900AC6993 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050227F4263BEE9900AC6993 /* DataService.swift */; };
 		050726DA2646F5750020637D /* WithdrawCashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050726D92646F5750020637D /* WithdrawCashViewController.swift */; };
+		058B8A252656B35E00F737A3 /* Recharge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 058B8A202656B35E00F737A3 /* Recharge.jpg */; };
+		058B8A262656B35E00F737A3 /* mywallet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 058B8A212656B35E00F737A3 /* mywallet.jpg */; };
+		058B8A272656B35E00F737A3 /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 058B8A222656B35E00F737A3 /* home.jpg */; };
+		058B8A282656B35E00F737A3 /* WithdrawCash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 058B8A232656B35E00F737A3 /* WithdrawCash.jpg */; };
+		058B8A292656B35E00F737A3 /* lauchscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 058B8A242656B35E00F737A3 /* lauchscreen.jpg */; };
 		05E653B5263D94610018497B /* AccountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E653B4263D94610018497B /* AccountCollectionViewCell.swift */; };
 		05E653B8263D97170018497B /* DataAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E653B7263D97170018497B /* DataAccount.swift */; };
 		05E653BD263EF3800018497B /* MyWalletCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E653BC263EF3800018497B /* MyWalletCollectionViewCell.swift */; };
@@ -38,6 +43,11 @@
 		050227F0263B30B800AC6993 /* ServiceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCollectionViewCell.swift; sourceTree = "<group>"; };
 		050227F4263BEE9900AC6993 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		050726D92646F5750020637D /* WithdrawCashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawCashViewController.swift; sourceTree = "<group>"; };
+		058B8A202656B35E00F737A3 /* Recharge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Recharge.jpg; sourceTree = "<group>"; };
+		058B8A212656B35E00F737A3 /* mywallet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mywallet.jpg; sourceTree = "<group>"; };
+		058B8A222656B35E00F737A3 /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpg; sourceTree = "<group>"; };
+		058B8A232656B35E00F737A3 /* WithdrawCash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WithdrawCash.jpg; sourceTree = "<group>"; };
+		058B8A242656B35E00F737A3 /* lauchscreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lauchscreen.jpg; sourceTree = "<group>"; };
 		05E653B4263D94610018497B /* AccountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCollectionViewCell.swift; sourceTree = "<group>"; };
 		05E653B7263D97170018497B /* DataAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccount.swift; sourceTree = "<group>"; };
 		05E653BC263EF3800018497B /* MyWalletCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWalletCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -108,6 +118,30 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		058B8A1F2656B35E00F737A3 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				058B8A202656B35E00F737A3 /* Recharge.jpg */,
+				058B8A212656B35E00F737A3 /* mywallet.jpg */,
+				058B8A222656B35E00F737A3 /* home.jpg */,
+				058B8A232656B35E00F737A3 /* WithdrawCash.jpg */,
+				058B8A242656B35E00F737A3 /* lauchscreen.jpg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		058B8A2B2656B37800F737A3 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				050227E7263B2E8300AC6993 /* Account */,
+				050227E6263B2E7400AC6993 /* Deal */,
+				05F2BFD2263A6D740025C42D /* Item */,
+				05F2BFBB263990650025C42D /* Home */,
+				050227DD263B17A900AC6993 /* Mess */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
 		05E653BA263EEBFE0018497B /* MyWallet */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +155,7 @@
 		05F2BF8C26398EFF0025C42D = {
 			isa = PBXGroup;
 			children = (
+				058B8A1F2656B35E00F737A3 /* Image */,
 				05F2BF9726398EFF0025C42D /* CarePay */,
 				05F2BF9626398EFF0025C42D /* Products */,
 			);
@@ -139,11 +174,7 @@
 			children = (
 				05F2BF9826398EFF0025C42D /* AppDelegate.swift */,
 				05F2BF9A26398EFF0025C42D /* SceneDelegate.swift */,
-				050227E7263B2E8300AC6993 /* Account */,
-				050227E6263B2E7400AC6993 /* Deal */,
-				05F2BFD2263A6D740025C42D /* Item */,
-				05F2BFBB263990650025C42D /* Home */,
-				050227DD263B17A900AC6993 /* Mess */,
+				058B8A2B2656B37800F737A3 /* Scene */,
 				05F2BFA126398F000025C42D /* Assets.xcassets */,
 				05F2BFA326398F000025C42D /* LaunchScreen.storyboard */,
 				05F2BFA626398F000025C42D /* Info.plist */,
@@ -231,7 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058B8A292656B35E00F737A3 /* lauchscreen.jpg in Resources */,
 				05F2BFA526398F000025C42D /* LaunchScreen.storyboard in Resources */,
+				058B8A272656B35E00F737A3 /* home.jpg in Resources */,
+				058B8A282656B35E00F737A3 /* WithdrawCash.jpg in Resources */,
+				058B8A252656B35E00F737A3 /* Recharge.jpg in Resources */,
+				058B8A262656B35E00F737A3 /* mywallet.jpg in Resources */,
 				05F2BFA226398F000025C42D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
