@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
             window?.rootViewController = mainVC
             window?.makeKeyAndVisible()
-     
+     //
     }
     func setupTabarController () -> UITabBarController{
         
@@ -53,6 +53,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         return tabBC
     }
+    
 
 
     func sceneDidDisconnect(_ scene: UIScene) {
