@@ -104,7 +104,6 @@
 			children = (
 				05F2BFB8263990610025C42D /* AccountViewController.swift */,
 				05E653B4263D94610018497B /* AccountCollectionViewCell.swift */,
-				05E653B7263D97170018497B /* DataAccount.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -113,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				050227F0263B30B800AC6993 /* ServiceCollectionViewCell.swift */,
-				050227F4263BEE9900AC6993 /* DataService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -133,13 +131,25 @@
 		058B8A2B2656B37800F737A3 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				058B8A2D2656B6A200F737A3 /* Model */,
+				05F2BFBB263990650025C42D /* Home */,
 				050227E7263B2E8300AC6993 /* Account */,
 				050227E6263B2E7400AC6993 /* Deal */,
 				05F2BFD2263A6D740025C42D /* Item */,
-				05F2BFBB263990650025C42D /* Home */,
 				050227DD263B17A900AC6993 /* Mess */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		058B8A2D2656B6A200F737A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05E653B7263D97170018497B /* DataAccount.swift */,
+				05E653BF263EF4A30018497B /* DataMyWallet.swift */,
+				05F2BFC52639A5FE0025C42D /* DataWallet.swift */,
+				050227F4263BEE9900AC6993 /* DataService.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		05E653BA263EEBFE0018497B /* MyWallet */ = {
@@ -147,7 +157,6 @@
 			children = (
 				05F2BFDE263A6E460025C42D /* WalletViewController.swift */,
 				05E653BC263EF3800018497B /* MyWalletCollectionViewCell.swift */,
-				05E653BF263EF4A30018497B /* DataMyWallet.swift */,
 			);
 			path = MyWallet;
 			sourceTree = "<group>";
@@ -187,7 +196,6 @@
 			children = (
 				05F2BFAF26398F670025C42D /* HomeViewController.swift */,
 				05F2BFBF263996730025C42D /* WalletCollectionViewCell.swift */,
-				05F2BFC52639A5FE0025C42D /* DataWallet.swift */,
 				050227EA263B304600AC6993 /* Service */,
 			);
 			path = Home;
