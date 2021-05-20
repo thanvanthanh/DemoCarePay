@@ -24,22 +24,26 @@ The E-Wallet DeMoCarePay Application
 
 
 **Home**
+
 <br>
 <img src="https://github.com/thanvanthanh/DemoCarePay/blob/main/Image/home.jpg"  width=40% />
 
 <br>
 
 **My Wallet**
+
 <br>
 <img src="https://github.com/thanvanthanh/DemoCarePay/blob/main/Image/mywallet.jpg"  width=40% />
 <br>
 
 **Rechange**
+
 <br>
 <img src="https://github.com/thanvanthanh/DemoCarePay/blob/main/Image/Recharge.jpg"  width=40% />
 <br>
 
 **WithdrawCash**
+
 <br>
 <img src="https://github.com/thanvanthanh/DemoCarePay/blob/main/Image/WithdrawCash.jpg"  width=40% />
 <br>
