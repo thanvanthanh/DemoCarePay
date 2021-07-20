@@ -46,7 +46,7 @@ class RechargeViewController: UIViewController {
         
         setupLayout()
         
-        let signoutButton = UIBarButtonItem(image: UIImage.init(systemName: "chevron.left"), style: .done, target: self, action: #selector(backtoHome))
+        let signoutButton = UIBarButtonItem(image: UIImage.init(systemName: "return"), style: .done, target: self, action: #selector(backtoHome))
         navigationItem.leftBarButtonItem = signoutButton
         //ẩn thanh Tabbar
 //        self.tabBarController?.tabBar.isHidden = true
