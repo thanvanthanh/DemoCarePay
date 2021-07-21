@@ -115,6 +115,15 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		05175C5F26A7A6610065B3B6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				05F2BF9826398EFF0025C42D /* AppDelegate.swift */,
+				05F2BF9A26398EFF0025C42D /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		058B8A1F2656B35E00F737A3 /* Image */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,8 +213,7 @@
 		05F2BF9726398EFF0025C42D /* CarePay */ = {
 			isa = PBXGroup;
 			children = (
-				05F2BF9826398EFF0025C42D /* AppDelegate.swift */,
-				05F2BF9A26398EFF0025C42D /* SceneDelegate.swift */,
+				05175C5F26A7A6610065B3B6 /* Application */,
 				058B8A2D2656B6A200F737A3 /* Model */,
 				058B8A2B2656B37800F737A3 /* Scene */,
 				05F2BFA126398F000025C42D /* Assets.xcassets */,
